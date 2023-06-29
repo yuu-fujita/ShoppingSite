@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+<servlet>
+    <servlet-name>Item_listServlet</servlet-name>
+    <servlet-class>jp.co.aforce.admin.Item_listServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>Item_listServlet</servlet-name>
+    <url-pattern>/views/Item_listServlet</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>Item_searchServlet</servlet-name>
+    <servlet-class>jp.co.aforce.admin.Item_searchServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>Item_searchServlet</servlet-name>
+    <url-pattern>/views/Item_searchServlet</url-pattern>
+</servlet-mapping>
+<Resource name="jdbc/ksj_shoppingsite" auth="Container" type="javax.sql.DataSource" maxTotal="100" maxIdle="30" 
+maxWaitMillis="10000" username="root" password="Raidori1012" driverClassName="com.mysql.cj.jdbc.Driver" 
+url="jdbc:mysql://localhost:3306/ksj_shoppingsite"/>
+</Context>

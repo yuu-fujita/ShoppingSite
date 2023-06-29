@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+body {
+	background-color: #f5f5f5;
+	font-family: Arial, sans-serif;
+}
+
+.mainContent {
+	max-width: 400px;
+	margin: auto;
+	padding: 40px;
+	background-color: #fff;
+	border-radius: 8px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+	text-align: center;
+}
+
+form {
+	margin-top: 20px;
+}
+
+form p {
+	margin-bottom: 20px;
+}
+
+.idp{
+	text-align: left;
+}
+
+form p input[type="text"],
+form p input[type="password"] {
+	width: 100%;
+	padding: 8px;
+	font-size: 16px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+form p input[type="submit"] ,.underButton{
+	background-color: #007DDD;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+form p input[type="submit"]:hover {
+	background-color: red;
+}
+
+.loginButton {
+	margin-top: 20px;
+}
+
+.loginButton p {
+	margin-bottom: 10px;
+}
+
+.loginButton .button input[type="submit"] {
+	background-color: #007DDD;
+	color: #fff;
+	padding: 8px 16px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+.loginButton .button input[type="submit"]:hover {
+	background-color: red;
+}
+
+.underButton:hover {
+	background-color: red;
+}
+
+/*ログアウト*/
+.logoutMessage{
+	font-weight: bold;
+}
+
+h4 {
+	color: red;
+	text-align: center;
+}	
+
+/* 削除 */
+
+.deleteyes{
+    margin-top: 15px;
+}
+
+
+
+

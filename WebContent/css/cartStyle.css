@@ -1,0 +1,186 @@
+@charset "UTF-8";
+
+/* 全体 */
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	padding-top: 130px;
+	min-height: 100vh;
+}
+
+.cartContent{
+	margin: 50px 100px auto;
+	
+}
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+/* テーブル */
+table {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+th {
+	text-align: center;
+	background-color: #f5f5f5;
+	font-weight: bold;
+}
+
+td {
+	padding: 10px;
+	text-align: center;
+}
+
+.number {
+	text-align: right;
+}
+
+.cart {
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+	margin-bottom: 20px;
+}
+
+/* 商品画像 */
+.imgTd img {
+	max-width: 100px;
+	height: auto;
+}
+
+/* カート内 */
+tr.cartItem {
+	border-bottom: 1px solid #ddd;
+}
+
+/* 小計 */
+.subTotal {
+	font-weight: bold;
+}
+
+/* カウントボタン */
+
+.count {
+	white-space: nowrap;
+}
+
+.countButton {
+	display: inline-block;
+	margin-right: 5px;
+}
+
+.countButton input[type="submit"] {
+	font-weight: bold;
+	padding: 5px 10px;
+	background-color: #C8C8C8;
+	color: white;
+	border-radius: 100%;
+	border: none;
+	cursor: pointer;
+}
+
+.countButton input[type="submit"]:hover {
+	background-color: #45a049;
+}
+
+/* 購入ボタン */
+.buyButton {
+	margin-top: 20px;
+}
+
+.buy{
+	text-align: center;
+	padding: 30px 0 30px;
+}
+
+.buyButton input[type="submit"] {
+	padding: 10px 100px;
+	background-color: #007DDD;
+	color: white;
+	border: none;
+	cursor: pointer;
+	font-size: 16px;
+}
+
+.buyButton input[type="submit"]:hover {
+	background-color: #005DC3;
+}
+
+.deleteButton input[type="image"]{
+	border: 3px solid #ddd;
+}
+
+.deleteButton input[type="image"]:hover{
+	border: 3px solid ddd;
+	opacity: 0.5;
+}
+
+/* 戻るボタン */
+.backButton {
+	margin: 10px 10px 0;
+	padding: 10px 20px;
+	background-color: #f5f5f5;
+	color: #333;
+	border: 1px solid #ddd;
+	cursor: pointer;
+	font-size: 16px;
+}
+
+.backButton:hover {
+	background-color: #ddd;
+}
+
+/* 合計 */
+.total {
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 20px;
+	padding: 0 10px 10px;
+}
+
+/* 決済方法 */
+.selectBox {
+	padding: 10px;
+	font-size: 16px;
+}
+
+/* カートメッセージ */
+.countMessage {
+	color: red;
+	font-size: 12px;
+	margin-top: 5px;
+}
+
+.text1{
+	font-size: 18px;
+	padding: 30px 0 5px;
+}
+
+/* 未ログイン時メッセージ */
+.loginMessage {
+	padding-top: 10px;
+}
+
+.loginText {
+	padding: 10px 0 20px;
+	font-size: 20px;
+	font-weight: bold;
+	color: red;
+}
+
+.loginMessage a {
+	background-color: #007DDD;
+	color: #fff;
+	padding: 10px 20px;
+	text-decoration: none;
+	font-weight: bold;
+	border-radius: 4px;
+}
+
+.loginMessage a:hover {
+	background-color: #005DC3;
+	color: #fff;
+}

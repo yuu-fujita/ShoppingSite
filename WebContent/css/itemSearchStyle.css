@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+/* 全体 */
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	padding-top: 120px;
+	background-color: #f2f2f2;
+}
+
+/* 商品リスト全体 */
+.itemList {
+	display: inline-block;
+	vertical-align: top;
+	background-color: #ffffff;
+	border-radius: 5px;
+	margin: 0 10px 10px 0;
+	padding: 10px;
+	width: 300px;
+}
+
+/* 商品画像 */
+.itemImage {
+	width: 96px;
+	height: 96px;
+	object-fit: cover;
+	border-radius: 5px;
+}
+
+/* 商品情報 */
+.itemInfo {
+	margin-top: 10px;
+}
+
+.itemName {
+	font-size: 20px;
+	font-weight: bold;
+	color: black;
+	text-align: left;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.itemText {
+	font-size: 14px;
+	color: #666666;
+	text-align: left;
+	margin-top: 5px;
+}
+
+.category, .level {
+	color: #666666;
+}
+
+/* ボタン */
+.cartButtonOn, .cartButtonOff, .underButton, .stock , .release{
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 10px;
+}
+
+.cartButtonOn input[type="submit"] {
+	background-color: #ff0000;
+	color: #ffffff;
+	border: none;
+	padding: 5px 10px;
+	font-size: 14px;
+	border-radius: 1px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+.cartButtonOn input[type="submit"]:hover {
+	background-color: #cc0000;
+}
+
+/* 在庫切れ時 */
+.cartButtonOff input[type="submit"] {
+	background-color: #555555;
+	color: #ffffff;
+	border: none;
+	padding: 5px 10px;
+	font-size: 14px;
+	border-radius: 1px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+.stock {
+	font-weight: bold;
+}
+
+/* 商品詳細ボタン */
+.itemDataButton{
+	background-color: #ffffff;
+	color: red;
+	border-color: red;
+	padding: 5px 10px;
+	font-size: 14px;
+	border-radius: 1px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+.itemDataButton:hover{
+	background-color: #E6E6E6;
+}
+
+/* 戻るボタン */
+.back input[type="submit"] {
+	background-color: #007DDD;
+	color: #ffffff;
+	border: none;
+	padding: 5px 10px;
+	margin: 25px 0 25px;
+	font-size: 14px;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+.back input[type="submit"]:hover {
+	background-color: #cc0000;
+}

@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+body {
+	background-color: #f5f5f5;
+	font-family: Arial, sans-serif;
+}
+
+.mainContent {
+	max-width: 400px;
+	margin: auto;
+	padding: 40px 90px 40px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+	
+form {
+	margin-bottom: 20px;
+}
+
+form p {
+	margin: 10px 0;
+}
+
+input[type="text"], .mail,
+input[type="password"],
+select {
+	width: 300px;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+.underButton{
+	padding: 10px 20px;
+	background-color: #007bff;
+	color: #fff;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+button[type="button"] {
+	background-color: #007bff;
+}
+
+.underButton:hover{
+	background-color: red;
+}
+
+.errorMessage {
+	color: #dc3545;
+	margin-top: 10px;
+}
+
+.birth{
+	display: flex;
+	justify-content: space-between;
+}
+
+.birth select{
+	width: calc(33% - 10px);
+}
+
+h2{
+	text-align: center;
+}
+
+.buttons{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+
+.underButton{
+	width: 140px;
+}
+
+.req{
+	margin-left: 3px;
+	color: white;
+	background-color: #dc3545;
+	font-weight: bold;
+	padding: 2px;
+	font-size: 65%;
+}
+
+.miniButton{
+	color: white;
+	background-color: #646464;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+	font-size: 13px;
+	padding: 3px;
+}
+
+.miniButton:hover{
+	background-color: red;
+}
+
+.idMes {
+	color: red;
+	font-weight: bold;
+}

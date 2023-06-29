@@ -1,0 +1,111 @@
+@charset "UTF-8";
+
+/* 1.jsp */
+
+.logo{
+    text-align: left;
+    margin-top: 15px;
+    padding-left: 25px;
+}
+
+body {
+	padding-top: 120px;
+}
+
+.logo2{
+    text-align: right;
+    margin-top: 20px;
+    margin-right: 20px;
+    width: 870px;
+    color: orangered;
+}
+
+.pictureanddetail{
+    display: flex;
+}
+
+.priceandcartandback{
+    display: flex;
+}
+
+.logo3{
+    text-align: right;
+    width: 440px;
+    margin-top: 10px;
+}
+ 
+ .back:hover{
+    color: #27acd9;
+    background: #fff;
+ }
+ 
+.back{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    width: 155px;
+    margin: auto;
+    margin-left: 200px;
+    margin-top:15px;
+    padding: 10px 15px;
+    font-weight: bold;
+    border: 2px solid #27acd9;
+    background: #27acd9;
+    color: #fff;
+    transition: 0.5s;
+    border-radius: 6px 6px 6px 6px;
+}
+
+.cart{
+    display: block;
+    text-align: right;
+    text-decoration: none;
+    width: 220px;
+    margin: auto;
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-right: 25px;
+    padding: 1rem 4rem;
+    font-weight: bold;
+    border: 2px solid #27acd9;
+    background: #27acd9;
+    color: #fff;
+    transition: 0.5s;
+    border-radius: 6px 6px 6px 6px;
+}
+
+.cart:hover{
+    color: #27acd9;
+    background: #fff;
+ }
+ 
+.img{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.star{
+    display: block;
+    text-align: right;
+    text-decoration: none;
+    width: 220px;
+    margin: auto;
+    margin-top: 5px;
+    margin-left: 10px;
+    padding: 1rem 4rem;
+    font-weight: bold;
+    border: 2px solid #fff450;
+    background: #fff450;
+    color: black;
+    transition: 0.5s;
+    border-radius: 6px 6px 6px 6px;
+}
+
+.star:hover{
+    color: #fff450;
+    background: #fff;
+ }
+ 
+ .zaikoNasi{
+    font-weight: bold;
+}

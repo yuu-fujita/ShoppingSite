@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+* {
+margin:0; padding:0;
+}
+
+h1{
+	font-family: 'Permanent Marker', cursive;
+}
+
+/* ヘッダー */
+header {
+	background-color: #007DDD;
+	padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFF;
+}
+
+.title {
+    text-align: left;
+}
+
+.title a{
+	color: white;
+	text-decoration: none;
+}
+
+.title h1 {
+    font-size: 30px;
+    margin: 0;
+}
+
+.title h2 {
+    font-size: 18px;
+    margin: 0;
+}
+
+.button a {
+    background-color: #FFF;
+    color: #007DDD;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.button a:hover {
+    background-color: rgb(255, 0, 0);
+    color: #FFF;
+}
+
+.cartCount{
+	color: white;
+}
+
+/* フッター */
+
+footer{
+	background-color: #007DDD;
+	padding: 10px;
+	text-align: center;
+	color: #FFF;
+}
+
+footer p{
+	margin: 0;
+}
+
+
+
+
